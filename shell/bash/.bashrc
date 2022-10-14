@@ -48,3 +48,4 @@ if [ -n "$(ls -A "$DOTFILES_PATH/shell/bash/completions/")" ]; then
     source "$bash_file"
   done
 fi
+export PATH="/Users/enriqueortuno/Library/Python/3.9/bin:$PATH"
