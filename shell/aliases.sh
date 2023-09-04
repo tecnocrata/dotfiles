@@ -14,6 +14,8 @@ alias la="ls -la"
 alias ~="cd ~"
 alias dotfiles='cd $DOTFILES_PATH'
 
+alias cat='bat --style="header,grid" --color=always'
+
 # Git
 alias gaa="git add -A"
 alias gc='$DOTLY_PATH/bin/dot git commit'
