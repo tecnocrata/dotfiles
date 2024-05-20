@@ -7,10 +7,11 @@ alias ...="cd ../.."
 # alias ll="ls -l"
 alias l.='exa -ald --color=always --group-directories-first --icons .*'
 alias la='exa -a --color=always --group-directories-first --icons'
-alias ll='exa -l --color=always --group-directories-first --icons'
+alias ll='exa -alh --color=always --group-directories-first --icons'
 alias ls='exa -al --color=always --group-directories-first --icons'
 alias lt='exa -aT --color=always --group-directories-first --icons'
-alias la="ls -la"
+alias tree='exa -T --color=always --group-directories-first --icons'
+alias cd=z
 alias ~="cd ~"
 alias dotfiles='cd $DOTFILES_PATH'
 

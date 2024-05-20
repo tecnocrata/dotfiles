@@ -137,3 +137,7 @@ export LANG=en_US.UTF-8
 [[ -f "$HOME/.fig/shell/zshrc.post.zsh" ]] && builtin source "$HOME/.fig/shell/zshrc.post.zsh"
 
 source /Users/enriqueortuno/.kbastion.sh
+
+PATH=~/.console-ninja/.bin:$PATH
+PATH="$PATH:/Users/enriqueortuno/.dotnet/tools"
+eval "$(zoxide init zsh)"
